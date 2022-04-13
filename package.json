@@ -1,0 +1,23 @@
+{
+  "name": "evm-bridge",
+  "version": "1.0.0",
+  "description": "A bridge between Polygon and Binance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svgvr8/evm-bridge.git"
+  },
+  "keywords": [
+    "blockchain",
+    "bridge"
+  ],
+  "author": "Sagar Y.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svgvr8/evm-bridge/issues"
+  },
+  "homepage": "https://github.com/svgvr8/evm-bridge#readme"
+}
