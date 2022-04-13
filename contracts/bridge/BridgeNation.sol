@@ -15,7 +15,7 @@ contract BridgeNation {
     constructor() {}
 
     function lockToken(
-        address to,
+        address to, //
         uint256 amount,
         uint256 chain
     ) external payable {}
@@ -27,3 +27,5 @@ contract BridgeNation {
         uint256 amount
     ) external {}
 }
+
+//end of the day 13th April 2022
