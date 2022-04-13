@@ -14,7 +14,16 @@ contract BridgeNation {
 
     constructor() {}
 
-    function lockToken() public {}
+    function lockToken(
+        address to,
+        uint256 amount,
+        uint256 chain
+    ) external payable {}
 
-    function unlockToken() public {}
+    function unlockToken(
+        uint256 satelliteChain,
+        uint256 i,
+        address to,
+        uint256 amount
+    ) external {}
 }
