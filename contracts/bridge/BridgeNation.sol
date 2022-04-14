@@ -26,6 +26,11 @@ contract BridgeNation {
         address to,
         uint256 amount
     ) external {}
+
+    function burn(uint256 amount) external onlyOperator {
+        ERC20Burnable(address(GTOKEN)).burn(amount);
+        emit CrossChainBurn(amount);
+    }
 }
 
 //end of the day 13th April 2022
