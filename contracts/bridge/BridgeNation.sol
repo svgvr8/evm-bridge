@@ -63,5 +63,3 @@ SatelliteChain is basically the chain you will bridge to.
         emit CrossChainBurn(amount);
     }
 }
-
-//end of the day 13th April 2022
